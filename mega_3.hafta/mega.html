@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Modern Web Sitesi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .jumbotron {
+            background: linear-gradient(rgba(250, 240, 230, 0.8), rgba(250, 240, 230, 0.8)), url('https://media.licdn.com/dms/image/D4D16AQEpEA5-FdIRLQ/profile-displaybackgroundimage-shrink_350_1400/0/1679912365772?e=1706745600&v=beta&t=mJRXNCb8Og53xui9amNl4pV2tTfT2p5nukYVr9_8Vwk') center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            border-radius: 0;
+        }
+
+        .jumbotron h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            margin-bottom: 20px;
+        }
+
+        .img-thumbnail {
+            width: 200px;
+            height: 200px;
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .navbar {
+            background-color: #d2b48c;
+
+            background-image: url('https://www.transparenttextures.com/patterns/fur.png');
+
+        }
+
+        .navbar-brand {
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+
+        .col-sm-4,
+        .col-sm-8 {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #d2b48c;
+            /* Bej (tan) rengi */
+            background-image: url('https://www.transparenttextures.com/patterns/fur.png');
+            /* Fil dişi deseni */
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .social-icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1>Üretken Akademi ile 3. Hafta</h1>
+        <img class="img-thumbnail" src="5f2f3bd4169ac597652702.jpg" alt="Üretken Akademi">
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="#">Üretken Akademi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="instagram.jpeg" alt="Instagram" class="social-icon">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="Facebook_Logo_(2019).png" alt="Facebook" class="social-icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Benim Hakkımda</h2>
+                <img class="fakeimg" src="social.jpeg" alt="Fake Image">
+                <p>
+                    Merhaba ben Zeynep!
+                    Bu benim Üretken Akademi'de 3. hafta projem!
+                    İşte diğer projelerime bakmanız için GitHub hesabım.
+                </p>
+                <h3>Sosyal Medya</h3>
+
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">GitHub
+                            <img src="GitHub-Mark-ea2971cee799.png" alt="GitHub" class="social-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Instagram
+                            <img src="instagram.jpeg" alt="Instagram" class="social-icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-8">
+                <h2>Sıfırdan Dijitalde Kariyerine Başla</h2>
+                <img class="fakeimg" src="software.jpeg" alt="Fake Image">
+                <p>Üretken Akademi programlarına katılarak sıfırdan yazılım öğrenip kariyerine başlayabilir veya
+                    girişimciliği öğrenerek kendi şirketini kurabilirsin.</p>
+                <br>
+                <h2>Teknoloji Girişimciliğe İlk Adım </h2>
+                <img class="fakeimg" src="indir.png" alt="Fake Image">
+                <p>Some text..</p>
+                <p>Üretken Akademi girişimci yetiştirme programına katılarak sıfırdan ekibini kur, fikrini geliştir ve
+                    girişim ekosisteminin bir parçası ol.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <p>Zeynep Berra KOÇ</p>
+    </footer>
+
+</body>
+
+</html>
